@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* Navbar */
+
+.Logo {
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: italic;
+  color: #083b87;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  padding: 23px;
+  border-radius: 7px;
+}
+li:hover a {
+  color: white;
+  transition: 0.4s;
+}
+li:hover {
+  background-color: #083b87;
+  transition: 0.4s;
+}
+nav {
+  height: 65px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 0 25px;
+}
+.NavBar {
+  display: flex;
+}
+/* Banner(index) */
+
+.centered {
+  width: 100%;
+  height: 85vh;
+  background: url(./Royal.jpg);
+  background-size: cover;
+  background-position: top;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Text {
+  font-size: 3.7rem;
+  font-style: italic;
+  color: #0b2142;
+  text-shadow: 3px 3px 5px grey;
+}
+/* Info(index) */
+
+.Info {
+  padding: 40px;
+}
+.lastP {
+  margin-top: 30px;
+}
+/* Royal-family */
+.royal {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+}
+.royal img {
+  width: 250px;
+  height: 370px;
+  border-radius: 5px;
+}
+.royal div h3 {
+  margin-top: 20px;
+  text-align: center;
+}
+.royal-header {
+  padding: 50px 95px;
+  font-style: italic;
+}
