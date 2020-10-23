@@ -5,6 +5,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
 /* Navbar */
 
 .Logo {
@@ -45,6 +46,7 @@ nav {
 .NavBar {
   display: flex;
 }
+
 /* Banner(index) */
 
 .centered {
@@ -59,7 +61,7 @@ nav {
   align-items: center;
   text-align: center;
 }
-.Text {
+.text {
   font-size: 3.7rem;
   font-style: italic;
   color: #0b2142;
@@ -67,18 +69,21 @@ nav {
 }
 /* Info(index) */
 
-.Info {
+.info {
   padding: 40px;
 }
 .lastP {
   margin-top: 30px;
 }
+
 /* Royal-family */
+
 .royal {
   width: 100%;
   height: 50vh;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .royal img {
   width: 250px;
@@ -89,15 +94,16 @@ nav {
   margin-top: 20px;
   text-align: center;
 }
+.royal div {
+  margin-bottom: 25px;
+}
 .royal-header {
-  padding: 50px 95px;
+  padding: 35px 120px;
   font-style: italic;
 }
 
 /* contact-page */
-.about {
-  margin: 35px 9%;
-}
+
 form {
   display: flex;
   flex-direction: column;
@@ -137,4 +143,29 @@ form textarea {
 }
 form label {
   font-weight: bold;
+}
+
+/* Assets Page */
+
+table {
+  margin: 0 auto;
+  height: auto;
+  width: 82%;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table tr td {
+  padding: 10px 0;
+  height: 20px;
+}
+table tr th,
+td {
+  border: 1px solid black;
+}
+table tr th {
+  background-color: darkgrey;
+}
+table tr:nth-child(even) {
+  background-color: lightgrey;
 }
